@@ -1,78 +1,74 @@
 ```markdown
 ---
-title: How to Create a Professional Website with WebStudio
-description: Build your professional website using WebStudio's customizable templates and design tools in just a few steps.
+title: How to Create Your First Website with WebStudio
+description: Build a professional website for your business using WebStudio's intuitive interface. Follow these steps to launch your site today.
 ---
 
-# How to Create a Professional Website with WebStudio
+# How to Create Your First Website with WebStudio
 
-Follow these steps to build your professional website using WebStudio's intuitive platform. You’ll leverage customizable templates and user-friendly design tools to establish your online presence effectively.
+Follow these steps to create a professional website using WebStudio. This guide is tailored for small business owners and freelancers who want to establish an online presence without coding skills.
 
 ## Step 1: Sign Up for WebStudio
 
-1. Visit the WebStudio website.
-2. Click on the "Get Started" button.
+1. Visit the WebStudio homepage.
+2. Click on the **Get Started** button.
 3. Fill in your email address and create a password.
-4. Confirm your email through the link sent to your inbox.
+4. Confirm your email by clicking the link sent to your inbox.
 
 ## Step 2: Choose a Template
 
 1. Log in to your WebStudio account.
-2. Navigate to the "Templates" section from the dashboard.
-3. Browse through the available categories tailored for small businesses and freelancers.
-4. Select a template that aligns with your brand and click "Use This Template."
+2. Navigate to the **Templates** section from the dashboard.
+3. Browse through the available templates tailored for various industries.
+4. Select a template that fits your business needs by clicking on it.
 
 ## Step 3: Customize Your Template
 
-1. Access the editor by clicking on "Edit Site."
-2. Modify the text by clicking on any text box. Replace placeholder text with your content.
-3. Change images by selecting an image box and uploading your own or choosing from the WebStudio image library.
-4. Adjust colors and fonts in the "Design" tab to match your brand identity.
+1. Click on the **Edit** button to open the website editor.
+2. Use the drag-and-drop interface to add elements like text, images, and videos.
+3. Click on any element to modify its properties, such as font size, color, and alignment.
+4. Add your business logo by uploading it in the **Branding** section.
 
-## Step 4: Add Essential Pages
+## Step 4: Add Pages
 
-1. Click on the "Pages" menu in the editor.
-2. Add pages such as "About Us," "Services," and "Contact" by clicking the "Add Page" button.
-3. For each page, repeat the customization steps to ensure consistency across your site.
+1. In the website editor, locate the **Pages** tab on the left sidebar.
+2. Click on **Add New Page** to create additional pages like About, Services, and Contact.
+3. Name each page and select a layout from the options provided.
+4. Use the editor to fill in content for each page.
 
-## Step 5: Optimize for Mobile
+## Step 5: Set Up Navigation
 
-1. Switch to the mobile view by clicking the mobile icon in the editor.
-2. Review how your site appears on mobile devices.
-3. Make necessary adjustments to ensure all elements are user-friendly and visually appealing on smaller screens.
+1. Click on the **Menu** icon in the editor.
+2. Drag and drop your pages to arrange them in the desired order.
+3. Ensure that the main navigation is user-friendly and intuitive.
+4. Save your changes to update the navigation menu.
 
-## Step 6: Set Up SEO Settings
+## Step 6: Optimize for SEO
 
-1. Navigate to the "SEO" section in the dashboard.
-2. Enter a unique title and meta description for your homepage.
-3. Add keywords relevant to your business to improve search visibility.
-4. Save your changes.
+1. Navigate to the **Settings** tab in the dashboard.
+2. Click on **SEO Settings**.
+3. Fill in the title, description, and keywords for your website.
+4. Enable the **Mobile Optimization** feature to ensure your site is responsive.
 
 ## Step 7: Preview Your Website
 
-1. Click on the "Preview" button to see how your website looks.
-2. Test all links and buttons to ensure they function correctly.
-3. Make any final adjustments based on your preview.
+1. Click on the **Preview** button located at the top right of the editor.
+2. Review your website on both desktop and mobile views.
+3. Make any necessary adjustments based on your preview.
 
 ## Step 8: Publish Your Website
 
-1. Once satisfied with your site, click the "Publish" button.
+1. Once satisfied with your website, click on the **Publish** button.
 2. Choose a domain name or connect an existing one.
-3. Confirm your publication settings and click "Publish" again.
+3. Confirm your publication settings and click **Publish** again to go live.
 
-## Step 9: Promote Your Website
-
-1. Share your new website on social media platforms.
-2. Consider using WebStudio's built-in marketing tools to reach a wider audience.
-3. Monitor website traffic and engagement through the analytics dashboard.
-
-Now you have a professional website ready to attract customers and showcase your services. 
+Congratulations! You have successfully created your first website with WebStudio. You can now manage your content, update your design, and track your website's performance through the WebStudio dashboard.
 
 ---
 
 ### Related
 
-- [WebStudio Features Overview](guides/features)
-- [SEO Best Practices for Small Businesses](guides/seo)
-- [How to Use WebStudio's Marketing Tools](guides/marketing)
+- [How to Optimize Your WebStudio Site for Search Engines](guides/seo-optimization.md)
+- [How to Add E-commerce Features to Your WebStudio Website](guides/ecommerce-setup.md)
+- [How to Connect Your Domain to WebStudio](guides/domain-connection.md)
 ```
