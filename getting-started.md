@@ -1,56 +1,53 @@
 ```markdown
 ---
-title: Getting Started with WebStudio: A Step-by-Step Guide
-description: Learn how to set up your first project in WebStudio, utilizing its design tools and customization options for web design success.
+title: Getting Started with WebStudio for Your Website
+description: Learn how to create a professional website using WebStudio's intuitive interface and advanced customization options.
 ---
 
 ## What You'll Learn
-In this tutorial, you will learn how to set up your first project in WebStudio, navigate its interface, and utilize its design tools and customization options effectively.
+In this tutorial, you will learn how to set up your first website using WebStudio. You will navigate the interface, customize your site, and publish it online.
 
 ## Prerequisites
-- **WebStudio**: Version 2.5 or later
-- **Web Browser**: Google Chrome (latest version) or Mozilla Firefox (latest version)
-- **Basic Knowledge**: Familiarity with HTML and CSS is recommended but not required.
+- A WebStudio account (Sign up at [WebStudio](https://www.webstudio.com))
+- A computer with internet access
+- A modern web browser (Google Chrome version 90+, Mozilla Firefox version 88+)
 
-## Steps to Get Started with WebStudio
+## Steps to Create Your Website
 
-1. **Sign Up for WebStudio**
-   - Visit the [WebStudio website](https://www.webstudio.com) and click on the "Sign Up" button.
-   - Fill in your details and create an account. Verify your email address to activate your account.
+1. **Log In to WebStudio**
+   - Open your web browser and go to the WebStudio login page.
+   - Enter your credentials and click on the "Log In" button.
 
-2. **Log In to Your Account**
-   - After verification, return to the WebStudio homepage and log in using your credentials.
+2. **Choose a Template**
+   - On the dashboard, click on "Create New Site."
+   - Browse through the available templates and select one that fits your business needs. Click "Use Template."
 
-3. **Create a New Project**
-   - Once logged in, click on the "Create New Project" button on your dashboard.
-   - Choose a template that suits your design needs or start with a blank canvas.
+3. **Customize Your Site**
+   - Use the drag-and-drop editor to add elements like text, images, and videos.
+   - Click on any element to edit its properties. Change fonts, colors, and sizes to match your brand.
 
-4. **Familiarize Yourself with the Interface**
-   - Explore the left sidebar for design tools, including text, images, and layout options.
-   - Use the top menu for project settings, preview options, and publishing features.
+4. **Add Pages**
+   - Click on the "Pages" tab in the left sidebar.
+   - Select "Add Page" and choose the type of page you want (e.g., About, Services, Contact).
+   - Customize each page using the same drag-and-drop features.
 
-5. **Customize Your Design**
-   - Drag and drop elements from the sidebar onto your canvas.
-   - Click on any element to access customization options such as colors, fonts, and sizes.
-   - Utilize the advanced settings to add custom CSS for further personalization.
+5. **Set Up Navigation**
+   - Click on the "Navigation" tab to organize your site’s menu.
+   - Drag and drop pages to arrange them in the desired order. Ensure your main pages are easily accessible.
 
-6. **Preview Your Project**
-   - Click the "Preview" button in the top right corner to see how your project looks on different devices.
-   - Make adjustments as needed to ensure responsiveness and aesthetics.
+6. **Preview Your Site**
+   - Click on the "Preview" button at the top right corner to see how your site looks on different devices.
+   - Make any necessary adjustments based on the preview.
 
-7. **Save Your Work**
-   - Regularly click the "Save" button to ensure your progress is not lost.
-   - Consider naming your project descriptively for easy identification later.
+7. **Publish Your Website**
+   - Once satisfied with your site, click on the "Publish" button.
+   - Choose a domain name or connect an existing domain. Follow the prompts to finalize your publication.
 
-8. **Publish Your Website**
-   - Once satisfied with your design, click on the "Publish" button.
-   - Choose a domain name or connect an existing one, and follow the prompts to make your site live.
-
-9. **Explore Additional Features**
-   - After publishing, explore WebStudio’s analytics and SEO tools to optimize your site’s performance.
-   - Check out the community forums for tips and tricks from other WebStudio users.
+8. **Promote Your Website**
+   - Share your new website on social media platforms and with your email list.
+   - Use WebStudio’s built-in SEO tools to optimize your site for search engines.
 
 ## Next Steps
-- Learn more about the core concepts of WebStudio in our [Concepts Guide](concepts.md).
-- Get started quickly with our [Quick Start Guide](guides/quick-start.md).
+- Explore more concepts in [WebStudio Concepts](concepts.md).
+- Get a quick overview of features in our [Quick Start Guide](guides/quick-start.md).
 ```
