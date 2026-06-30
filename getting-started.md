@@ -1,57 +1,57 @@
 ```markdown
 ---
-title: Getting Started with WebStudio for Creative Professionals
-description: Learn to build stunning websites with WebStudio's intuitive tools and features tailored for creative professionals and small business owners.
+title: Getting Started with WebStudio: Build Your First Website
+description: Learn how to create your first website using WebStudio's intuitive interface and customizable templates tailored for creative professionals.
 ---
 
 ## What You'll Learn
-In this tutorial, you will learn how to set up your first website using WebStudio. You will explore the platform's advanced design tools, customize templates, and publish your site without any coding.
+In this tutorial, you will learn how to set up your first website using WebStudio. You will explore the platform's features, customize templates, and publish your site.
 
 ## Prerequisites
 - A WebStudio account (Sign up at [WebStudio](https://www.webstudio.com))
-- A modern web browser (Google Chrome 90+, Mozilla Firefox 85+, Safari 14+)
-- Basic understanding of website design principles
+- A modern web browser (Chrome, Firefox, or Safari)
+- Basic understanding of web design concepts
 
-## Steps to Get Started with WebStudio
+## Steps to Create Your First Website
 
-1. **Log In to Your WebStudio Account**
-   - Navigate to the WebStudio login page.
+1. **Log in to Your WebStudio Account**
+   - Open your web browser and navigate to the WebStudio login page.
    - Enter your credentials and click on the "Log In" button.
 
-2. **Create a New Project**
-   - Click on the "Create New Project" button on your dashboard.
-   - Choose a project type that suits your needs (e.g., portfolio, business site).
-
-3. **Select a Template**
+2. **Choose a Template**
+   - Once logged in, click on the "Create New Site" button.
    - Browse through the available templates tailored for creative professionals.
-   - Click on a template to preview it, then select "Use This Template" to start customizing.
+   - Select a template that best fits your vision and click "Use This Template."
 
-4. **Customize Your Template**
-   - Use the drag-and-drop editor to add elements like text, images, and videos.
-   - Click on any element to access customization options, such as fonts, colors, and layouts.
+3. **Customize Your Template**
+   - Use the drag-and-drop editor to modify the layout. 
+   - Click on different sections to edit text, images, and colors.
+   - Utilize the sidebar to access design elements like fonts and styles.
 
-5. **Add Pages to Your Website**
-   - Click on the "Pages" tab in the left sidebar.
-   - Select "Add Page" to create additional pages (e.g., About, Services, Contact).
-   - Use the same drag-and-drop functionality to customize each new page.
+4. **Add Pages to Your Website**
+   - Click on the "Pages" tab in the top menu.
+   - Select "Add New Page" and choose the type of page you want (e.g., About, Services, Contact).
+   - Customize each new page using the same drag-and-drop features.
 
-6. **Optimize for SEO**
+5. **Optimize for SEO**
    - Navigate to the "Settings" tab and select "SEO."
-   - Fill in the title, description, and keywords for your website to improve search engine visibility.
+   - Fill in the site title, meta description, and keywords relevant to your business.
+   - Save your changes to improve your site's visibility on search engines.
 
-7. **Preview Your Website**
-   - Click the "Preview" button to see how your site looks on different devices (desktop, tablet, mobile).
+6. **Preview Your Website**
+   - Click on the "Preview" button to see how your website looks on different devices.
    - Make any necessary adjustments based on the preview.
 
-8. **Publish Your Website**
+7. **Publish Your Website**
    - Once satisfied with your design, click on the "Publish" button.
-   - Choose a domain name or connect an existing domain to make your site live.
+   - Choose a domain name or connect an existing one.
+   - Confirm your choice and click "Publish" again to make your site live.
 
-9. **Monitor Performance**
-   - Use the built-in analytics tools to track visitor behavior and site performance.
-   - Adjust your content and design based on the insights you gather.
+8. **Share Your Website**
+   - After publishing, share your website link on social media and with potential clients.
+   - Use WebStudio's built-in analytics to track visitor engagement.
 
 ## Next Steps
-- Explore more concepts in [WebStudio Concepts](concepts.md).
-- Get familiar with quick setup tips in [Quick Start Guide](guides/quick-start.md).
+- Explore more about the platform in the [Concepts](concepts.md) documentation.
+- Get quick tips and tricks in the [Quick Start Guide](guides/quick-start.md).
 ```

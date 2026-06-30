@@ -1,47 +1,53 @@
-```yaml
-title: WebStudio Command Reference for Creative Professionals
-description: Discover essential commands and parameters in WebStudio to build stunning websites without coding.
+```markdown
+---
+title: WebStudio Command Reference for Website Building
+description: Master WebStudio commands to create stunning websites with customizable templates and an intuitive interface.
 ---
 
 # WebStudio Command Reference
 
-This reference guide provides a comprehensive overview of commands and parameters in WebStudio, helping you utilize its advanced design tools efficiently.
+This reference guide provides a comprehensive overview of the commands available in WebStudio. Use these commands to efficiently build and customize your website.
 
-## Design Commands
+## General Commands
 
-| Parameter/Command       | Type          | Description                                           | Example                         |
-|-------------------------|---------------|-------------------------------------------------------|---------------------------------|
-| `addElement`            | Function      | Adds a new design element to your page.              | `addElement('image', 'logo.png')` |
-| `setBackgroundColor`    | Function      | Sets the background color of the selected element.    | `setBackgroundColor('#FFFFFF')` |
-| `resizeElement`         | Function      | Resizes the selected element to specified dimensions. | `resizeElement('header', 1200, 300)` |
-| `applyStyle`            | Function      | Applies a predefined style to the selected element.   | `applyStyle('button', 'primary')` |
+| Parameter/Command   | Type          | Description                                   | Example                   |
+|---------------------|---------------|-----------------------------------------------|---------------------------|
+| `createSite`        | Function      | Initiates the creation of a new website.     | `createSite("My Portfolio")` |
+| `deleteSite`        | Function      | Deletes an existing website.                  | `deleteSite("My Portfolio")` |
+| `publishSite`       | Function      | Publishes the current website to the web.    | `publishSite("My Portfolio")` |
+| `unpublishSite`     | Function      | Unpublishes the current website.              | `unpublishSite("My Portfolio")` |
 
-## Layout Commands
+## Template Management
 
-| Parameter/Command       | Type          | Description                                           | Example                         |
-|-------------------------|---------------|-------------------------------------------------------|---------------------------------|
-| `createGrid`            | Function      | Creates a grid layout for your page.                  | `createGrid(3, 2)`              |
-| `addColumn`             | Function      | Adds a new column to the existing grid layout.        | `addColumn('sidebar')`          |
-| `setColumnWidth`        | Function      | Sets the width of a specific column in the grid.     | `setColumnWidth('sidebar', 300)` |
-| `removeElement`         | Function      | Removes the specified element from the layout.        | `removeElement('footer')`       |
+| Parameter/Command   | Type          | Description                                   | Example                   |
+|---------------------|---------------|-----------------------------------------------|---------------------------|
+| `listTemplates`     | Function      | Lists all available templates.                | `listTemplates()`         |
+| `applyTemplate`     | Function      | Applies a specified template to your site.   | `applyTemplate("Creative")` |
+| `customizeTemplate` | Function      | Opens the customization options for a template. | `customizeTemplate("Creative")` |
 
-## Content Management Commands
+## Content Management
 
-| Parameter/Command       | Type          | Description                                           | Example                         |
-|-------------------------|---------------|-------------------------------------------------------|---------------------------------|
-| `addText`               | Function      | Adds text content to the selected element.            | `addText('Welcome to WebStudio!')` |
-| `linkElement`           | Function      | Links the selected element to a specified URL.       | `linkElement('button', 'https://webstudio.com')` |
-| `uploadMedia`           | Function      | Uploads media files to your project.                  | `uploadMedia('image', 'banner.jpg')` |
-| `setSEO`                | Function      | Sets SEO parameters for the page.                     | `setSEO('title', 'My Website')` |
+| Parameter/Command   | Type          | Description                                   | Example                   |
+|---------------------|---------------|-----------------------------------------------|---------------------------|
+| `addPage`           | Function      | Adds a new page to your website.             | `addPage("About Us")`     |
+| `removePage`        | Function      | Removes a specified page from your website.  | `removePage("About Us")`  |
+| `editContent`       | Function      | Edits the content of a specified page.       | `editContent("About Us", "Welcome to our site!")` |
 
-## Publishing Commands
+## SEO Settings
 
-| Parameter/Command       | Type          | Description                                           | Example                         |
-|-------------------------|---------------|-------------------------------------------------------|---------------------------------|
-| `previewSite`           | Function      | Previews the current state of your website.           | `previewSite()`                 |
-| `publishSite`           | Function      | Publishes your website to the web.                    | `publishSite()`                 |
-| `setDomain`             | Function      | Assigns a custom domain to your website.              | `setDomain('mywebsite.com')`    |
-| `viewAnalytics`         | Function      | Views analytics for your published site.              | `viewAnalytics()`                |
+| Parameter/Command   | Type          | Description                                   | Example                   |
+|---------------------|---------------|-----------------------------------------------|---------------------------|
+| `setMetaTitle`      | Function      | Sets the meta title for your website.        | `setMetaTitle("My Portfolio")` |
+| `setMetaDescription`| Function      | Sets the meta description for your website.  | `setMetaDescription("Showcasing my creative work.")` |
+| `addKeyword`        | Function      | Adds a keyword for SEO optimization.         | `addKeyword("portfolio, design, freelance")` |
 
-Utilize these commands to maximize your design capabilities in WebStudio, standing out against competitors like Wix, Squarespace, and Weebly.
+## User Management
+
+| Parameter/Command   | Type          | Description                                   | Example                   |
+|---------------------|---------------|-----------------------------------------------|---------------------------|
+| `addUser`           | Function      | Adds a new user to your website.             | `addUser("john@example.com")` |
+| `removeUser`        | Function      | Removes a specified user from your website.  | `removeUser("john@example.com")` |
+| `listUsers`         | Function      | Lists all users associated with your website. | `listUsers()`             |
+
+Use this reference to navigate WebStudio's features and commands effectively. Build your website with confidence and creativity.
 ```
