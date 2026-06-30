@@ -1,55 +1,52 @@
-```markdown
+```yaml
+title: WebStudio Parameters and Commands Reference Guide
+description: Discover WebStudio's parameters and commands to customize your website effectively and enhance your online presence.
 ---
-title: WebStudio Command Reference for Website Building
-description: Learn WebStudio commands to create customizable websites without coding skills.
----
 
-# WebStudio Command Reference
+# WebStudio Parameters and Commands Reference Guide
 
-This reference page provides a comprehensive list of commands and parameters you can use in WebStudio to build your website. Grouped by category, these commands help you customize your site effectively.
+This reference guide provides a comprehensive overview of the parameters and commands available in WebStudio. Use this guide to enhance your website's functionality and customization.
 
-## Layout Commands
+## General Settings
 
-| Parameter/Command      | Type         | Description                                   | Example                       |
-|------------------------|--------------|-----------------------------------------------|-------------------------------|
-| `addSection`           | Function     | Adds a new section to your webpage.          | `addSection('header')`       |
-| `removeSection`        | Function     | Removes a specified section from your page.  | `removeSection('footer')`     |
-| `setColumnLayout`      | Function     | Defines the column layout for a section.     | `setColumnLayout(3)`         |
-| `setBackgroundColor`   | Function     | Changes the background color of a section.   | `setBackgroundColor('#fff')` |
+| Parameter/Command     | Type         | Description                                      | Example                  |
+|-----------------------|--------------|--------------------------------------------------|--------------------------|
+| `site_title`          | String       | Sets the title of your website.                  | `My Business Website`    |
+| `site_description`    | String       | Defines the meta description for SEO.            | `Best services in town`  |
+| `favicon`             | URL          | Links to the favicon image for your site.       | `https://example.com/favicon.ico` |
+| `theme`               | String       | Chooses the theme for your website.              | `Modern`                 |
 
-## Text Commands
+## Page Settings
 
-| Parameter/Command      | Type         | Description                                   | Example                       |
-|------------------------|--------------|-----------------------------------------------|-------------------------------|
-| `addText`              | Function     | Inserts a text element into a section.       | `addText('Welcome to my site!')` |
-| `setFontSize`          | Function     | Adjusts the font size of text elements.      | `setFontSize('16px')`        |
-| `setTextColor`         | Function     | Changes the color of the text.               | `setTextColor('#333')`       |
-| `setTextAlignment`     | Function     | Aligns text within its container.            | `setTextAlignment('center')` |
+| Parameter/Command     | Type         | Description                                      | Example                  |
+|-----------------------|--------------|--------------------------------------------------|--------------------------|
+| `page_title`          | String       | Sets the title for a specific page.             | `Contact Us`             |
+| `page_slug`           | String       | Defines the URL slug for the page.               | `contact`                |
+| `visibility`          | Boolean      | Controls the visibility of the page.             | `true`                   |
 
-## Media Commands
+## Content Management
 
-| Parameter/Command      | Type         | Description                                   | Example                       |
-|------------------------|--------------|-----------------------------------------------|-------------------------------|
-| `addImage`             | Function     | Inserts an image into a section.             | `addImage('logo.png')`       |
-| `addVideo`             | Function     | Embeds a video from a URL.                   | `addVideo('https://video.url')` |
-| `setImageSize`         | Function     | Adjusts the size of an image.                | `setImageSize('100%', 'auto')` |
-| `setVideoAutoplay`     | Function     | Enables autoplay for embedded videos.        | `setVideoAutoplay(true)`      |
+| Parameter/Command     | Type         | Description                                      | Example                  |
+|-----------------------|--------------|--------------------------------------------------|--------------------------|
+| `add_image`           | URL          | Uploads an image to the page.                   | `https://example.com/image.jpg` |
+| `add_text`            | String       | Inserts text content into the page.              | `Welcome to our website!` |
+| `add_video`           | URL          | Embeds a video from a URL.                       | `https://youtube.com/video` |
 
-## Style Commands
+## SEO Settings
 
-| Parameter/Command      | Type         | Description                                   | Example                       |
-|------------------------|--------------|-----------------------------------------------|-------------------------------|
-| `setBorder`            | Function     | Adds a border around elements.               | `setBorder('1px solid #000')` |
-| `setMargin`            | Function     | Sets the margin for elements.                | `setMargin('10px')`          |
-| `setPadding`           | Function     | Adjusts the padding within elements.         | `setPadding('5px')`          |
-| `setShadow`            | Function     | Applies shadow effects to elements.          | `setShadow('2px 2px 5px #aaa')` |
+| Parameter/Command     | Type         | Description                                      | Example                  |
+|-----------------------|--------------|--------------------------------------------------|--------------------------|
+| `meta_keywords`       | Array        | Sets keywords for SEO optimization.              | `["services", "business"]` |
+| `canonical_url`       | URL          | Defines the canonical URL for the page.          | `https://example.com/contact` |
 
-## Publishing Commands
+## Customization Options
 
-| Parameter/Command      | Type         | Description                                   | Example                       |
-|------------------------|--------------|-----------------------------------------------|-------------------------------|
-| `previewSite`          | Function     | Previews your website before publishing.      | `previewSite()`              |
-| `publishSite`          | Function     | Publishes your website to the web.           | `publishSite()`              |
-| `setDomain`            | Function     | Assigns a custom domain to your site.        | `setDomain('mybusiness.com')` |
-| `setSEO`               | Function     | Configures SEO settings for better visibility.| `setSEO({ title: 'My Site', description: 'Best site ever' })` |
+| Parameter/Command     | Type         | Description                                      | Example                  |
+|-----------------------|--------------|--------------------------------------------------|--------------------------|
+| `custom_css`          | String       | Adds custom CSS styles to the website.          | `.header { color: blue; }` |
+| `custom_js`           | String       | Inserts custom JavaScript for added functionality.| `alert('Hello World!');` |
+
+## Conclusion
+
+Utilize these parameters and commands to tailor your WebStudio website to your specific needs. Adjust settings to improve your online presence and engage your audience effectively.
 ```
