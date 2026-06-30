@@ -1,49 +1,48 @@
 ```yaml
-title: WebStudio Command Reference for Creative Professionals
-description: Discover WebStudio commands to enhance your website design. Build visually appealing sites with intuitive tools tailored for you.
+title: Comprehensive Reference for WebStudio Parameters and Commands
+description: Discover essential parameters and commands for WebStudio to enhance your website design experience without coding.
 ---
 
-# WebStudio Command Reference
+# WebStudio Parameters and Commands Reference
 
-This reference page provides a comprehensive list of commands available in WebStudio, organized by category. Use these commands to streamline your website design process.
+This reference provides a detailed overview of parameters and commands available in WebStudio, categorized for your convenience. Use this guide to streamline your website creation process.
 
-## Design Commands
+## Design Parameters
 
-| Parameter/Command      | Type         | Description                                      | Example                     |
-|------------------------|--------------|--------------------------------------------------|-----------------------------|
-| `addElement`           | Function     | Adds a new design element to your page.         | `addElement('image')`      |
-| `removeElement`        | Function     | Removes a specified design element from your page.| `removeElement('header')`   |
-| `setBackgroundColor`   | Function     | Sets the background color of the selected section.| `setBackgroundColor('#FFF')`|
-| `setFontSize`          | Function     | Adjusts the font size for selected text.        | `setFontSize('16px')`      |
-| `alignText`            | Function     | Aligns text within a specified element.         | `alignText('center')`      |
+| Parameter/Command       | Type           | Description                                      | Example                        |
+|-------------------------|----------------|--------------------------------------------------|--------------------------------|
+| `background-color`      | String         | Sets the background color of your section.      | `#ffffff`                     |
+| `font-family`           | String         | Defines the font family for text elements.      | `Arial, sans-serif`           |
+| `text-align`            | String         | Aligns text within a container.                 | `center`                      |
+| `padding`               | String         | Adds space inside an element.                   | `20px 15px`                  |
+| `margin`                | String         | Adds space outside an element.                  | `10px 5px`                   |
 
 ## Layout Commands
 
-| Parameter/Command      | Type         | Description                                      | Example                     |
-|------------------------|--------------|--------------------------------------------------|-----------------------------|
-| `createGrid`           | Function     | Creates a grid layout for your page elements.   | `createGrid(3, 2)`         |
-| `addColumn`            | Function     | Adds a new column to the existing grid layout.  | `addColumn()`              |
-| `removeRow`            | Function     | Removes a specified row from the grid layout.   | `removeRow(1)`             |
-| `setMargin`            | Function     | Sets the margin for a specified element.        | `setMargin('20px')`        |
-| `setPadding`           | Function     | Adjusts the padding within a specified element. | `setPadding('10px')`       |
+| Parameter/Command       | Type           | Description                                      | Example                        |
+|-------------------------|----------------|--------------------------------------------------|--------------------------------|
+| `grid-template-columns` | String         | Defines the number of columns in a grid layout. | `repeat(3, 1fr)`              |
+| `flex-direction`        | String         | Sets the direction of flex items.               | `row`                          |
+| `display`               | String         | Specifies the display behavior of an element.   | `flex`                         |
+| `width`                 | String         | Sets the width of an element.                   | `100%`                        |
+| `height`                | String         | Sets the height of an element.                  | `auto`                        |
 
-## Media Commands
+## Interaction Parameters
 
-| Parameter/Command      | Type         | Description                                      | Example                     |
-|------------------------|--------------|--------------------------------------------------|-----------------------------|
-| `uploadImage`          | Function     | Uploads an image to your media library.         | `uploadImage('logo.png')`  |
-| `addVideo`             | Function     | Embeds a video from a specified URL.            | `addVideo('https://url.com/video')` |
-| `setImageAltText`      | Function     | Sets the alt text for an image for accessibility.| `setImageAltText('Logo Image')` |
-| `resizeImage`          | Function     | Resizes an image to specified dimensions.       | `resizeImage('300x200')`   |
-| `addAudio`             | Function     | Embeds an audio file from a specified URL.      | `addAudio('https://url.com/audio')` |
+| Parameter/Command       | Type           | Description                                      | Example                        |
+|-------------------------|----------------|--------------------------------------------------|--------------------------------|
+| `onClick`               | Function       | Defines a function to execute on click events.  | `alert('Hello World')`        |
+| `onHover`               | Function       | Defines a function to execute on hover events.  | `changeColor('blue')`         |
+| `transition`            | String         | Sets the transition effect for elements.        | `0.3s ease-in-out`            |
+| `animation`             | String         | Applies an animation to an element.             | `fadeIn`                      |
 
-## Publishing Commands
+## SEO Parameters
 
-| Parameter/Command      | Type         | Description                                      | Example                     |
-|------------------------|--------------|--------------------------------------------------|-----------------------------|
-| `publishSite`          | Function     | Publishes your website to the web.              | `publishSite()`             |
-| `previewSite`          | Function     | Previews your website before publishing.         | `previewSite()`             |
-| `setSEO`               | Function     | Sets SEO metadata for your website.              | `setSEO('My Website Title', 'Description')` |
-| `connectDomain`        | Function     | Connects a custom domain to your website.        | `connectDomain('mydomain.com')` |
-| `updateContent`        | Function     | Updates content on your live site.               | `updateContent('new text')` |
+| Parameter/Command       | Type           | Description                                      | Example                        |
+|-------------------------|----------------|--------------------------------------------------|--------------------------------|
+| `meta-title`            | String         | Sets the title for your webpage in search results.| `My Business Website`         |
+| `meta-description`      | String         | Provides a brief description for search engines. | `Best services in town.`      |
+| `canonical-url`         | String         | Defines the canonical URL for your page.        | `https://mybusiness.com`      |
+
+Utilize this reference to optimize your website creation process in WebStudio, ensuring you leverage all available features effectively. For further assistance, consult the WebStudio support documentation.
 ```

@@ -1,63 +1,44 @@
 ```markdown
 ---
-title: Getting Started with WebStudio for Creative Professionals
-description: Learn how to set up your first website using WebStudio's intuitive design interface tailored for creative professionals.
+title: Getting Started with WebStudio for Your Website
+description: Learn to create a custom website with WebStudio's intuitive interface. Build your online presence without coding today.
 ---
 
 ## What You'll Learn
-In this tutorial, you will learn how to set up your first website using WebStudio, including creating an account, selecting a template, and customizing your site.
+In this tutorial, you will learn how to set up your first website using WebStudio. You will navigate the design interface, customize templates, and publish your site.
 
 ## Prerequisites
+- A WebStudio account (Sign up at [WebStudio](https://www.webstudio.com))
 - A computer with internet access
-- A WebStudio account (sign up at [WebStudio](https://www.webstudio.com))
-- A modern web browser (Google Chrome version 90+, Mozilla Firefox version 88+)
+- Basic understanding of website concepts
 
 ## Steps to Get Started with WebStudio
 
-1. **Create Your Account**
-   - Visit the WebStudio website.
-   - Click on the "Sign Up" button.
-   - Fill in your details and verify your email address.
+1. **Log in to Your WebStudio Account**
+   - Visit the WebStudio login page and enter your credentials. If you don’t have an account, click on “Sign Up” and follow the prompts to create one.
 
-2. **Log In to Your Dashboard**
-   - Return to the WebStudio homepage.
-   - Click on the "Log In" button.
-   - Enter your credentials to access your dashboard.
+2. **Choose a Template**
+   - After logging in, click on “Create New Site.” Browse through the available templates tailored for small businesses and freelancers. Select a template that fits your vision.
 
-3. **Choose a Template**
-   - From the dashboard, click on "Create New Site."
-   - Browse through the available templates tailored for creative professionals.
-   - Select a template that fits your vision by clicking on it.
+3. **Customize Your Template**
+   - Use the drag-and-drop editor to modify your template. Click on elements to change text, images, and colors. You can add new sections by selecting “Add Section” from the sidebar.
 
-4. **Customize Your Template**
-   - Use the drag-and-drop editor to modify elements on your page.
-   - Click on text boxes to edit content and change fonts.
-   - Add images by dragging them from your computer into the editor.
+4. **Add Essential Pages**
+   - Ensure your website includes key pages such as Home, About, Services, and Contact. Click on “Pages” in the sidebar and use the “Add Page” button to create new ones.
 
-5. **Add Pages to Your Site**
-   - Click on the "Pages" tab in the left sidebar.
-   - Select "Add New Page" and choose the type of page you want (e.g., About, Portfolio).
-   - Customize each new page using the same drag-and-drop features.
+5. **Optimize for SEO**
+   - Click on “Settings” and navigate to the SEO section. Enter relevant keywords, a meta description, and a title for each page to improve your site's visibility on search engines.
 
-6. **Set Up Your Site Navigation**
-   - Click on the "Navigation" tab.
-   - Arrange your pages in the order you want them to appear in the menu.
-   - Save your changes.
+6. **Preview Your Site**
+   - Click on the “Preview” button to see how your site looks on different devices. Make adjustments as necessary to ensure a responsive design.
 
-7. **Preview Your Website**
-   - Click on the "Preview" button to see how your site looks on different devices.
-   - Make any necessary adjustments based on the preview.
+7. **Publish Your Website**
+   - Once satisfied with your design, click on the “Publish” button. Choose a domain name or connect an existing one. Follow the prompts to make your site live.
 
-8. **Publish Your Website**
-   - Once satisfied, click on the "Publish" button in the top right corner.
-   - Choose a domain name or connect an existing domain.
-   - Confirm your publication settings and click "Publish" again.
-
-9. **Monitor Your Site's Performance**
-   - After publishing, access the "Analytics" tab from your dashboard.
-   - Review visitor statistics and adjust your content as needed.
+8. **Manage Your Website**
+   - Use the dashboard to manage your content, track analytics, and update your site as needed. Regularly check for updates to keep your site secure and functional.
 
 ## Next Steps
-- Explore more concepts in our [Concepts Guide](concepts.md).
-- Get started with our [Quick Start Guide](guides/quick-start.md).
+- Explore more about the core concepts in [Concepts](concepts.md).
+- Get quick tips and tricks in the [Quick Start Guide](guides/quick-start.md).
 ```
