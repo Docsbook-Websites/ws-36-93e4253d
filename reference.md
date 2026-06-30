@@ -1,44 +1,47 @@
 ```yaml
-title: WebStudio Command Reference for Small Business Owners
-description: Discover WebStudio commands to customize your website effectively and manage your online presence.
+title: Comprehensive Command Reference for WebStudio Users
+description: Master WebStudio with this detailed command reference guide. Create unique websites without coding using customizable features.
 ---
 
 # WebStudio Command Reference
 
-This reference page provides a comprehensive list of commands and parameters available in WebStudio, organized by category. Use these commands to customize your website and enhance your online presence.
+This reference guide provides an overview of the commands and parameters available in WebStudio. Use this to enhance your web design experience.
 
 ## Design Commands
 
-| Parameter/Command      | Type         | Description                                          | Example                       |
-|------------------------|--------------|------------------------------------------------------|-------------------------------|
-| `setBackgroundColor`   | String       | Sets the background color of your website.           | `setBackgroundColor('#ffffff')` |
-| `addImage`             | URL          | Adds an image to your webpage.                       | `addImage('https://image.url')` |
-| `setFontSize`          | Integer      | Adjusts the font size for text elements.             | `setFontSize(16)`            |
-| `setTheme`             | String       | Applies a predefined theme to your site.             | `setTheme('modern')`         |
+| Parameter/Command      | Type          | Description                                      | Example                  |
+|------------------------|---------------|--------------------------------------------------|--------------------------|
+| `addSection`           | Function      | Adds a new section to your webpage.              | `addSection('header')`   |
+| `removeSection`        | Function      | Removes a specified section from your webpage.   | `removeSection('footer')` |
+| `setBackgroundColor`   | Function      | Sets the background color for a section.         | `setBackgroundColor('#fff')` |
+| `setFontStyle`         | Function      | Changes the font style for text elements.        | `setFontStyle('Arial')`  |
+| `setImage`             | Function      | Inserts an image into a specified section.       | `setImage('logo.png')`   |
+
+## Layout Commands
+
+| Parameter/Command      | Type          | Description                                      | Example                  |
+|------------------------|---------------|--------------------------------------------------|--------------------------|
+| `setGrid`              | Function      | Defines a grid layout for your sections.         | `setGrid(3, 2)`          |
+| `setMargin`            | Function      | Adjusts the margin around elements.              | `setMargin('10px')`      |
+| `setPadding`           | Function      | Sets padding within sections.                     | `setPadding('20px')`     |
+| `alignText`            | Function      | Aligns text within a section.                    | `alignText('center')`    |
 
 ## Content Management Commands
 
-| Parameter/Command      | Type         | Description                                          | Example                       |
-|------------------------|--------------|------------------------------------------------------|-------------------------------|
-| `createPage`           | String       | Creates a new page on your website.                  | `createPage('About Us')`     |
-| `deletePage`           | String       | Deletes an existing page from your website.          | `deletePage('Contact')`      |
-| `updateContent`        | String       | Updates the content of a specified page.             | `updateContent('Home', 'Welcome to our site!')` |
-| `setSEO`               | String       | Sets SEO metadata for better search engine visibility.| `setSEO('My Business Website')` |
+| Parameter/Command      | Type          | Description                                      | Example                  |
+|------------------------|---------------|--------------------------------------------------|--------------------------|
+| `addText`              | Function      | Adds text content to a specified section.       | `addText('Welcome to our site!')` |
+| `updateText`           | Function      | Updates existing text content.                   | `updateText('New tagline')` |
+| `removeText`           | Function      | Deletes text content from a section.             | `removeText('Old tagline')` |
+| `addLink`              | Function      | Inserts a hyperlink into text.                   | `addLink('Visit Us', 'https://yourbusiness.com')` |
 
-## User Interaction Commands
+## Publishing Commands
 
-| Parameter/Command      | Type         | Description                                          | Example                       |
-|------------------------|--------------|------------------------------------------------------|-------------------------------|
-| `addContactForm`       | Boolean      | Adds a contact form to your webpage.                 | `addContactForm(true)`       |
-| `enableComments`       | Boolean      | Enables comments on blog posts or articles.          | `enableComments(true)`       |
-| `setNewsletterSignup`   | String       | Integrates a newsletter signup form.                 | `setNewsletterSignup('Mailchimp')` |
+| Parameter/Command      | Type          | Description                                      | Example                  |
+|------------------------|---------------|--------------------------------------------------|--------------------------|
+| `publishSite`          | Function      | Publishes your website to the web.               | `publishSite()`          |
+| `previewSite`          | Function      | Previews your website before publishing.          | `previewSite()`          |
+| `setDomain`            | Function      | Assigns a custom domain to your website.         | `setDomain('yourbusiness.com')` |
 
-## Analytics Commands
-
-| Parameter/Command      | Type         | Description                                          | Example                       |
-|------------------------|--------------|------------------------------------------------------|-------------------------------|
-| `setGoogleAnalytics`   | String       | Integrates Google Analytics for tracking.            | `setGoogleAnalytics('UA-XXXXX-Y')` |
-| `trackEvent`           | String       | Tracks a specific user interaction on your site.    | `trackEvent('Button Click')` |
-
-Use these commands to maximize the potential of your WebStudio website. Customize your design, manage your content, enhance user interaction, and track analytics effectively.
+Use this reference to navigate WebStudio's features effectively. Create unique websites tailored to your business needs without any coding knowledge.
 ```
