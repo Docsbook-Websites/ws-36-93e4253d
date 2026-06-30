@@ -1,47 +1,55 @@
-```yaml
-title: WebStudio Reference Guide for Website Development
-description: Discover essential parameters and commands in WebStudio to create professional websites without coding knowledge.
+```markdown
+---
+title: WebStudio Command Reference for Website Building
+description: Learn WebStudio commands to create customizable websites without coding skills.
 ---
 
-# WebStudio Reference Guide
+# WebStudio Command Reference
 
-This reference guide provides a comprehensive overview of parameters and commands available in WebStudio, organized by category. Use this guide to enhance your website development process.
-
-## Design Parameters
-
-| Parameter/Command      | Type         | Description                                         | Example                   |
-|------------------------|--------------|-----------------------------------------------------|---------------------------|
-| `background-color`     | CSS Property | Sets the background color of your website.          | `background-color: #fff;` |
-| `font-family`          | CSS Property | Defines the font for text elements.                 | `font-family: Arial;`     |
-| `margin`               | CSS Property | Adjusts the space outside an element.               | `margin: 20px;`           |
-| `padding`              | CSS Property | Sets the space inside an element.                   | `padding: 15px;`          |
+This reference page provides a comprehensive list of commands and parameters you can use in WebStudio to build your website. Grouped by category, these commands help you customize your site effectively.
 
 ## Layout Commands
 
-| Parameter/Command      | Type         | Description                                         | Example                   |
-|------------------------|--------------|-----------------------------------------------------|---------------------------|
-| `grid-template-columns`| CSS Property | Defines the number and size of columns in a grid.  | `grid-template-columns: 1fr 2fr;` |
-| `flex-direction`       | CSS Property | Sets the direction of flex items in a flex container.| `flex-direction: row;`    |
-| `display`              | CSS Property | Specifies the display behavior of an element.       | `display: flex;`          |
-| `align-items`          | CSS Property | Aligns flex items along the cross axis.            | `align-items: center;`    |
+| Parameter/Command      | Type         | Description                                   | Example                       |
+|------------------------|--------------|-----------------------------------------------|-------------------------------|
+| `addSection`           | Function     | Adds a new section to your webpage.          | `addSection('header')`       |
+| `removeSection`        | Function     | Removes a specified section from your page.  | `removeSection('footer')`     |
+| `setColumnLayout`      | Function     | Defines the column layout for a section.     | `setColumnLayout(3)`         |
+| `setBackgroundColor`   | Function     | Changes the background color of a section.   | `setBackgroundColor('#fff')` |
 
-## SEO Parameters
+## Text Commands
 
-| Parameter/Command      | Type         | Description                                         | Example                   |
-|------------------------|--------------|-----------------------------------------------------|---------------------------|
-| `meta-description`     | HTML Tag     | Provides a summary of the webpage for search engines.| `<meta name="description" content="Your business description">` |
-| `title`                | HTML Tag     | Sets the title of the webpage for SEO purposes.     | `<title>Your Website Title</title>` |
-| `alt`                  | HTML Attribute| Describes images for accessibility and SEO.        | `<img src="image.jpg" alt="Description of image">` |
+| Parameter/Command      | Type         | Description                                   | Example                       |
+|------------------------|--------------|-----------------------------------------------|-------------------------------|
+| `addText`              | Function     | Inserts a text element into a section.       | `addText('Welcome to my site!')` |
+| `setFontSize`          | Function     | Adjusts the font size of text elements.      | `setFontSize('16px')`        |
+| `setTextColor`         | Function     | Changes the color of the text.               | `setTextColor('#333')`       |
+| `setTextAlignment`     | Function     | Aligns text within its container.            | `setTextAlignment('center')` |
 
-## Integration Commands
+## Media Commands
 
-| Parameter/Command      | Type         | Description                                         | Example                   |
-|------------------------|--------------|-----------------------------------------------------|---------------------------|
-| `embed`                | HTML Tag     | Embeds external content like videos or maps.       | `<iframe src="video-url"></iframe>` |
-| `link`                 | HTML Tag     | Creates hyperlinks to other pages or external sites.| `<a href="https://example.com">Visit Us</a>` |
-| `script`               | HTML Tag     | Includes JavaScript files for additional functionality.| `<script src="script.js"></script>` |
+| Parameter/Command      | Type         | Description                                   | Example                       |
+|------------------------|--------------|-----------------------------------------------|-------------------------------|
+| `addImage`             | Function     | Inserts an image into a section.             | `addImage('logo.png')`       |
+| `addVideo`             | Function     | Embeds a video from a URL.                   | `addVideo('https://video.url')` |
+| `setImageSize`         | Function     | Adjusts the size of an image.                | `setImageSize('100%', 'auto')` |
+| `setVideoAutoplay`     | Function     | Enables autoplay for embedded videos.        | `setVideoAutoplay(true)`      |
 
-## Conclusion
+## Style Commands
 
-Use this reference guide to navigate the parameters and commands in WebStudio effectively. Customize your website to meet your business needs while competing with platforms like Wix, Squarespace, and WordPress.
+| Parameter/Command      | Type         | Description                                   | Example                       |
+|------------------------|--------------|-----------------------------------------------|-------------------------------|
+| `setBorder`            | Function     | Adds a border around elements.               | `setBorder('1px solid #000')` |
+| `setMargin`            | Function     | Sets the margin for elements.                | `setMargin('10px')`          |
+| `setPadding`           | Function     | Adjusts the padding within elements.         | `setPadding('5px')`          |
+| `setShadow`            | Function     | Applies shadow effects to elements.          | `setShadow('2px 2px 5px #aaa')` |
+
+## Publishing Commands
+
+| Parameter/Command      | Type         | Description                                   | Example                       |
+|------------------------|--------------|-----------------------------------------------|-------------------------------|
+| `previewSite`          | Function     | Previews your website before publishing.      | `previewSite()`              |
+| `publishSite`          | Function     | Publishes your website to the web.           | `publishSite()`              |
+| `setDomain`            | Function     | Assigns a custom domain to your site.        | `setDomain('mybusiness.com')` |
+| `setSEO`               | Function     | Configures SEO settings for better visibility.| `setSEO({ title: 'My Site', description: 'Best site ever' })` |
 ```
