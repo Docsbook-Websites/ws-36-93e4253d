@@ -1,53 +1,56 @@
-```yaml
-title: WebStudio Command Reference for Website Building
-description: Discover essential commands in WebStudio to create professional websites without coding. Customize your site effectively today.
+```markdown
+---
+title: WebStudio Command Reference for Small Business Owners
+description: Discover WebStudio commands to customize your website without coding. Create professional sites with ease and efficiency.
 ---
 
 # WebStudio Command Reference
 
-This reference guide provides a comprehensive list of commands available in WebStudio, categorized for your convenience. Use these commands to enhance your website creation process.
+This reference page lists the commands available in WebStudio, organized by category. Use these commands to customize your website effectively.
 
-## Site Management Commands
+## Layout Commands
 
-| Parameter/Command       | Type     | Description                                       | Example                    |
-|-------------------------|----------|---------------------------------------------------|----------------------------|
-| `createSite`            | Command  | Initiates a new website project.                  | `createSite "My Business"` |
-| `deleteSite`            | Command  | Permanently removes the specified website.        | `deleteSite "My Business"` |
-| `publishSite`           | Command  | Publishes your website to the web.                | `publishSite "My Business"` |
-| `unpublishSite`         | Command  | Unpublishes your website from the web.            | `unpublishSite "My Business"` |
+| Parameter/Command       | Type          | Description                                        | Example                      |
+|-------------------------|---------------|----------------------------------------------------|------------------------------|
+| `addSection`            | Function      | Adds a new section to your webpage.                | `addSection('header')`      |
+| `removeSection`         | Function      | Removes an existing section from your webpage.     | `removeSection('footer')`    |
+| `setLayout`             | Function      | Sets the overall layout style for the page.       | `setLayout('grid')`         |
+| `setBackgroundColor`    | Color         | Changes the background color of a section.        | `setBackgroundColor('#fff')`|
 
-## Design Customization Commands
+## Text Commands
 
-| Parameter/Command       | Type     | Description                                       | Example                    |
-|-------------------------|----------|---------------------------------------------------|----------------------------|
-| `setTheme`              | Command  | Applies a specific theme to your website.         | `setTheme "Modern"`        |
-| `addLogo`               | Command  | Uploads a logo to your website header.            | `addLogo "logo.png"`       |
-| `changeColorScheme`     | Command  | Modifies the color scheme of your website.        | `changeColorScheme "blue"` |
-| `addFont`               | Command  | Adds a custom font to your website text.          | `addFont "Roboto"`         |
+| Parameter/Command       | Type          | Description                                        | Example                      |
+|-------------------------|---------------|----------------------------------------------------|------------------------------|
+| `addText`               | Function      | Inserts text into a specified section.             | `addText('Welcome to My Site')` |
+| `setFontSize`           | Size          | Adjusts the font size of the text.                | `setFontSize('16px')`       |
+| `setFontColor`          | Color         | Changes the color of the text.                     | `setFontColor('#333')`      |
+| `setTextAlignment`      | Alignment     | Aligns the text within its container.              | `setTextAlignment('center')`|
 
-## Content Management Commands
+## Image Commands
 
-| Parameter/Command       | Type     | Description                                       | Example                    |
-|-------------------------|----------|---------------------------------------------------|----------------------------|
-| `addPage`               | Command  | Creates a new page within your website.           | `addPage "About Us"`       |
-| `deletePage`            | Command  | Removes a specified page from your website.       | `deletePage "Contact"`     |
-| `editContent`           | Command  | Edits the content of a specified page.            | `editContent "Home" "Welcome to My Business"` |
-| `addImage`              | Command  | Uploads an image to a specific page.              | `addImage "Home" "image.jpg"` |
+| Parameter/Command       | Type          | Description                                        | Example                      |
+|-------------------------|---------------|----------------------------------------------------|------------------------------|
+| `addImage`              | Function      | Inserts an image into a specified section.        | `addImage('logo.png')`      |
+| `setImageSize`          | Size          | Sets the dimensions of the inserted image.        | `setImageSize('100x100')`   |
+| `setImageAltText`       | Text          | Adds alternative text for the image.              | `setImageAltText('Logo')`   |
+| `setImagePosition`      | Position      | Positions the image within its container.         | `setImagePosition('left')`   |
 
-## SEO Optimization Commands
+## Link Commands
 
-| Parameter/Command       | Type     | Description                                       | Example                    |
-|-------------------------|----------|---------------------------------------------------|----------------------------|
-| `setMetaTitle`          | Command  | Sets the meta title for your website.             | `setMetaTitle "My Business"` |
-| `setMetaDescription`    | Command  | Sets the meta description for your website.       | `setMetaDescription "Best services for small businesses"` |
-| `addKeyword`            | Command  | Adds a keyword for SEO optimization.              | `addKeyword "small business"` |
+| Parameter/Command       | Type          | Description                                        | Example                      |
+|-------------------------|---------------|----------------------------------------------------|------------------------------|
+| `addLink`               | Function      | Creates a hyperlink to another page or external site.| `addLink('https://example.com')` |
+| `setLinkTarget`         | Target        | Specifies how the link opens (e.g., new tab).     | `setLinkTarget('_blank')`    |
+| `setLinkText`           | Text          | Defines the text displayed for the link.          | `setLinkText('Visit Us')`    |
 
-## Analytics Commands
+## Form Commands
 
-| Parameter/Command       | Type     | Description                                       | Example                    |
-|-------------------------|----------|---------------------------------------------------|----------------------------|
-| `enableAnalytics`       | Command  | Activates analytics tracking for your website.    | `enableAnalytics`          |
-| `viewAnalytics`         | Command  | Displays the analytics dashboard for your website. | `viewAnalytics`            |
+| Parameter/Command       | Type          | Description                                        | Example                      |
+|-------------------------|---------------|----------------------------------------------------|------------------------------|
+| `addFormField`          | Function      | Adds a new field to your form.                     | `addFormField('email')`     |
+| `setFormAction`         | URL           | Sets the URL where the form submits data.         | `setFormAction('/submit')`   |
+| `setFormMethod`         | Method        | Defines the HTTP method for form submission.      | `setFormMethod('POST')`      |
+| `addSubmitButton`       | Function      | Inserts a submit button for the form.             | `addSubmitButton('Send')`    |
 
-Utilize these commands in WebStudio to create and manage your professional website effectively, standing out against competitors like Wix, Squarespace, and Weebly.
+Use this reference to enhance your WebStudio experience and create professional websites tailored to your needs.
 ```

@@ -1,56 +1,56 @@
 ```markdown
 ---
 title: Getting Started with WebStudio for Your Website
-description: Learn how to set up your first website using WebStudio's user-friendly interface and customizable features.
+description: Learn to create a professional website using WebStudio's customizable interface. Start building without coding today.
 ---
 
 ## What You'll Learn
-- How to create an account on WebStudio
-- Steps to choose a template and customize it
-- How to publish your website
+In this tutorial, you will learn how to set up your first website using WebStudio. You will navigate the interface, customize your design, and publish your site.
 
 ## Prerequisites
+- A WebStudio account (sign up at [WebStudio](https://www.webstudio.com))
 - A computer with internet access
-- A valid email address
-- WebStudio account (latest version: 2.5.1)
+- Recommended browser: Google Chrome (latest version) or Mozilla Firefox (latest version)
 
-## Getting Started with WebStudio
+## Steps to Get Started with WebStudio
 
-1. **Create Your Account**
-   - Visit the WebStudio homepage.
-   - Click on the "Sign Up" button.
-   - Enter your email address and create a password.
-   - Verify your email by clicking the link sent to your inbox.
+1. **Log In to Your WebStudio Account**
+   - Open your web browser.
+   - Navigate to the WebStudio login page.
+   - Enter your credentials and click on the "Log In" button.
 
-2. **Log In to Your Dashboard**
-   - Return to the WebStudio homepage.
-   - Click on "Log In" and enter your credentials.
-   - Familiarize yourself with the dashboard layout, which includes options for templates, customization, and publishing.
+2. **Create a New Project**
+   - Once logged in, click on the "Create New Project" button on your dashboard.
+   - Choose a template that suits your business needs. You can preview templates before selecting.
 
-3. **Choose a Template**
-   - Click on the "Templates" section in the dashboard.
-   - Browse through the available templates tailored for small businesses and freelancers.
-   - Select a template that fits your brand and click "Use This Template."
+3. **Customize Your Template**
+   - Use the drag-and-drop editor to add elements like text, images, and videos.
+   - Click on any element to edit its properties, such as font size, color, and alignment.
+   - Add sections like "About Us," "Services," and "Contact" by selecting from the sidebar.
 
-4. **Customize Your Website**
-   - Use the drag-and-drop editor to modify your template.
-   - Add your logo by clicking on the logo placeholder and uploading your image.
-   - Edit text by clicking on the text boxes and typing your content.
-   - Change colors and fonts in the "Design" tab to match your brand identity.
+4. **Add Pages to Your Website**
+   - Click on the "Pages" tab in the left sidebar.
+   - Select "Add New Page" and choose the type of page you want to create.
+   - Name your page and click "Create." Repeat this for additional pages as needed.
 
-5. **Add Essential Pages**
-   - Click on "Pages" in the left sidebar.
-   - Add pages such as "About Us," "Services," and "Contact."
-   - For each page, use the editor to customize content and layout.
+5. **Set Up Navigation**
+   - Go to the "Navigation" settings in the sidebar.
+   - Drag your pages into the navigation menu to organize them.
+   - Ensure your main pages are easily accessible for visitors.
 
 6. **Preview Your Website**
-   - Click on the "Preview" button to see how your website looks on desktop and mobile.
-   - Make any necessary adjustments to ensure a professional appearance.
+   - Click on the "Preview" button at the top right corner.
+   - Review your website to ensure everything appears as intended.
+   - Make any necessary adjustments before publishing.
 
 7. **Publish Your Website**
-   - Once satisfied with your design, click the "Publish" button.
-   - Choose a domain name or connect an existing one.
-   - Confirm your choices and publish your site to go live.
+   - Once satisfied with your site, click on the "Publish" button.
+   - Choose your domain name or connect an existing one.
+   - Confirm your settings and click "Publish" to make your site live.
+
+8. **Share Your Website**
+   - After publishing, share your website link on social media and with your network.
+   - Encourage feedback to improve your site further.
 
 ## Next Steps
 - Explore more concepts in [WebStudio Concepts](concepts.md).
