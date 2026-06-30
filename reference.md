@@ -1,51 +1,53 @@
 ```yaml
-title: WebStudio Command Reference for Small Business Owners
-description: Master WebStudio commands to create and manage your website effectively. Enhance your web development skills today.
+title: WebStudio Command Reference for Website Building
+description: Discover essential commands in WebStudio to create professional websites without coding. Customize your site effectively today.
 ---
 
 # WebStudio Command Reference
 
-This reference page provides a comprehensive overview of commands available in WebStudio. Use this guide to enhance your website development process.
+This reference guide provides a comprehensive list of commands available in WebStudio, categorized for your convenience. Use these commands to enhance your website creation process.
 
-## Design Tools
+## Site Management Commands
 
-| Parameter/Command | Type         | Description                                         | Example                     |
-|-------------------|--------------|-----------------------------------------------------|-----------------------------|
-| `addSection`      | Function     | Adds a new section to your webpage.                 | `addSection("header")`     |
-| `setBackground`   | Function     | Sets the background color or image for a section.   | `setBackground("#ffffff")`  |
-| `insertImage`     | Function     | Inserts an image into a specified section.          | `insertImage("logo.png")`  |
-| `setFont`         | Function     | Changes the font style for text elements.           | `setFont("Arial")`          |
-| `addButton`       | Function     | Creates a clickable button with specified text.     | `addButton("Contact Us")`   |
+| Parameter/Command       | Type     | Description                                       | Example                    |
+|-------------------------|----------|---------------------------------------------------|----------------------------|
+| `createSite`            | Command  | Initiates a new website project.                  | `createSite "My Business"` |
+| `deleteSite`            | Command  | Permanently removes the specified website.        | `deleteSite "My Business"` |
+| `publishSite`           | Command  | Publishes your website to the web.                | `publishSite "My Business"` |
+| `unpublishSite`         | Command  | Unpublishes your website from the web.            | `unpublishSite "My Business"` |
 
-## Customization Options
+## Design Customization Commands
 
-| Parameter/Command | Type         | Description                                         | Example                     |
-|-------------------|--------------|-----------------------------------------------------|-----------------------------|
-| `setMargin`       | Function     | Adjusts the margin around an element.               | `setMargin("20px")`        |
-| `setPadding`      | Function     | Adjusts the padding within an element.              | `setPadding("10px")`       |
-| `setBorder`       | Function     | Defines the border style for an element.            | `setBorder("1px solid black")` |
-| `setVisibility`    | Function     | Toggles the visibility of an element.               | `setVisibility("hidden")`  |
-| `setAnimation`    | Function     | Applies an animation effect to an element.          | `setAnimation("fadeIn")`   |
+| Parameter/Command       | Type     | Description                                       | Example                    |
+|-------------------------|----------|---------------------------------------------------|----------------------------|
+| `setTheme`              | Command  | Applies a specific theme to your website.         | `setTheme "Modern"`        |
+| `addLogo`               | Command  | Uploads a logo to your website header.            | `addLogo "logo.png"`       |
+| `changeColorScheme`     | Command  | Modifies the color scheme of your website.        | `changeColorScheme "blue"` |
+| `addFont`               | Command  | Adds a custom font to your website text.          | `addFont "Roboto"`         |
 
-## Content Management
+## Content Management Commands
 
-| Parameter/Command | Type         | Description                                         | Example                     |
-|-------------------|--------------|-----------------------------------------------------|-----------------------------|
-| `addPost`         | Function     | Creates a new blog post with a title and content.  | `addPost("My First Post", "This is the content.")` |
-| `editPost`        | Function     | Edits an existing blog post by ID.                  | `editPost(1, "Updated Content")` |
-| `deletePost`      | Function     | Deletes a blog post by ID.                           | `deletePost(1)`            |
-| `setSEO`          | Function     | Configures SEO settings for better visibility.      | `setSEO("My Page Title", "My Page Description")` |
-| `addComment`      | Function     | Adds a comment to a blog post.                       | `addComment(1, "Great post!")` |
+| Parameter/Command       | Type     | Description                                       | Example                    |
+|-------------------------|----------|---------------------------------------------------|----------------------------|
+| `addPage`               | Command  | Creates a new page within your website.           | `addPage "About Us"`       |
+| `deletePage`            | Command  | Removes a specified page from your website.       | `deletePage "Contact"`     |
+| `editContent`           | Command  | Edits the content of a specified page.            | `editContent "Home" "Welcome to My Business"` |
+| `addImage`              | Command  | Uploads an image to a specific page.              | `addImage "Home" "image.jpg"` |
 
-## User Management
+## SEO Optimization Commands
 
-| Parameter/Command | Type         | Description                                         | Example                     |
-|-------------------|--------------|-----------------------------------------------------|-----------------------------|
-| `addUser`         | Function     | Adds a new user with specified permissions.         | `addUser("john@example.com", "admin")` |
-| `removeUser`      | Function     | Removes a user from the platform.                   | `removeUser("john@example.com")` |
-| `setRole`         | Function     | Assigns a role to an existing user.                 | `setRole("john@example.com", "editor")` |
-| `listUsers`       | Function     | Lists all users with their roles.                   | `listUsers()`              |
-| `updateProfile`   | Function     | Updates user profile information.                   | `updateProfile("john@example.com", "New Info")` |
+| Parameter/Command       | Type     | Description                                       | Example                    |
+|-------------------------|----------|---------------------------------------------------|----------------------------|
+| `setMetaTitle`          | Command  | Sets the meta title for your website.             | `setMetaTitle "My Business"` |
+| `setMetaDescription`    | Command  | Sets the meta description for your website.       | `setMetaDescription "Best services for small businesses"` |
+| `addKeyword`            | Command  | Adds a keyword for SEO optimization.              | `addKeyword "small business"` |
 
-Utilize these commands to optimize your website creation and management process in WebStudio. For further assistance, refer to the WebStudio documentation or community forums.
+## Analytics Commands
+
+| Parameter/Command       | Type     | Description                                       | Example                    |
+|-------------------------|----------|---------------------------------------------------|----------------------------|
+| `enableAnalytics`       | Command  | Activates analytics tracking for your website.    | `enableAnalytics`          |
+| `viewAnalytics`         | Command  | Displays the analytics dashboard for your website. | `viewAnalytics`            |
+
+Utilize these commands in WebStudio to create and manage your professional website effectively, standing out against competitors like Wix, Squarespace, and Weebly.
 ```
