@@ -1,48 +1,47 @@
 ```yaml
-title: Comprehensive Reference for WebStudio Parameters and Commands
-description: Discover essential parameters and commands for WebStudio to enhance your website design experience without coding.
+title: WebStudio Reference Guide for Website Development
+description: Discover essential parameters and commands in WebStudio to create professional websites without coding knowledge.
 ---
 
-# WebStudio Parameters and Commands Reference
+# WebStudio Reference Guide
 
-This reference provides a detailed overview of parameters and commands available in WebStudio, categorized for your convenience. Use this guide to streamline your website creation process.
+This reference guide provides a comprehensive overview of parameters and commands available in WebStudio, organized by category. Use this guide to enhance your website development process.
 
 ## Design Parameters
 
-| Parameter/Command       | Type           | Description                                      | Example                        |
-|-------------------------|----------------|--------------------------------------------------|--------------------------------|
-| `background-color`      | String         | Sets the background color of your section.      | `#ffffff`                     |
-| `font-family`           | String         | Defines the font family for text elements.      | `Arial, sans-serif`           |
-| `text-align`            | String         | Aligns text within a container.                 | `center`                      |
-| `padding`               | String         | Adds space inside an element.                   | `20px 15px`                  |
-| `margin`                | String         | Adds space outside an element.                  | `10px 5px`                   |
+| Parameter/Command      | Type         | Description                                         | Example                   |
+|------------------------|--------------|-----------------------------------------------------|---------------------------|
+| `background-color`     | CSS Property | Sets the background color of your website.          | `background-color: #fff;` |
+| `font-family`          | CSS Property | Defines the font for text elements.                 | `font-family: Arial;`     |
+| `margin`               | CSS Property | Adjusts the space outside an element.               | `margin: 20px;`           |
+| `padding`              | CSS Property | Sets the space inside an element.                   | `padding: 15px;`          |
 
 ## Layout Commands
 
-| Parameter/Command       | Type           | Description                                      | Example                        |
-|-------------------------|----------------|--------------------------------------------------|--------------------------------|
-| `grid-template-columns` | String         | Defines the number of columns in a grid layout. | `repeat(3, 1fr)`              |
-| `flex-direction`        | String         | Sets the direction of flex items.               | `row`                          |
-| `display`               | String         | Specifies the display behavior of an element.   | `flex`                         |
-| `width`                 | String         | Sets the width of an element.                   | `100%`                        |
-| `height`                | String         | Sets the height of an element.                  | `auto`                        |
-
-## Interaction Parameters
-
-| Parameter/Command       | Type           | Description                                      | Example                        |
-|-------------------------|----------------|--------------------------------------------------|--------------------------------|
-| `onClick`               | Function       | Defines a function to execute on click events.  | `alert('Hello World')`        |
-| `onHover`               | Function       | Defines a function to execute on hover events.  | `changeColor('blue')`         |
-| `transition`            | String         | Sets the transition effect for elements.        | `0.3s ease-in-out`            |
-| `animation`             | String         | Applies an animation to an element.             | `fadeIn`                      |
+| Parameter/Command      | Type         | Description                                         | Example                   |
+|------------------------|--------------|-----------------------------------------------------|---------------------------|
+| `grid-template-columns`| CSS Property | Defines the number and size of columns in a grid.  | `grid-template-columns: 1fr 2fr;` |
+| `flex-direction`       | CSS Property | Sets the direction of flex items in a flex container.| `flex-direction: row;`    |
+| `display`              | CSS Property | Specifies the display behavior of an element.       | `display: flex;`          |
+| `align-items`          | CSS Property | Aligns flex items along the cross axis.            | `align-items: center;`    |
 
 ## SEO Parameters
 
-| Parameter/Command       | Type           | Description                                      | Example                        |
-|-------------------------|----------------|--------------------------------------------------|--------------------------------|
-| `meta-title`            | String         | Sets the title for your webpage in search results.| `My Business Website`         |
-| `meta-description`      | String         | Provides a brief description for search engines. | `Best services in town.`      |
-| `canonical-url`         | String         | Defines the canonical URL for your page.        | `https://mybusiness.com`      |
+| Parameter/Command      | Type         | Description                                         | Example                   |
+|------------------------|--------------|-----------------------------------------------------|---------------------------|
+| `meta-description`     | HTML Tag     | Provides a summary of the webpage for search engines.| `<meta name="description" content="Your business description">` |
+| `title`                | HTML Tag     | Sets the title of the webpage for SEO purposes.     | `<title>Your Website Title</title>` |
+| `alt`                  | HTML Attribute| Describes images for accessibility and SEO.        | `<img src="image.jpg" alt="Description of image">` |
 
-Utilize this reference to optimize your website creation process in WebStudio, ensuring you leverage all available features effectively. For further assistance, consult the WebStudio support documentation.
+## Integration Commands
+
+| Parameter/Command      | Type         | Description                                         | Example                   |
+|------------------------|--------------|-----------------------------------------------------|---------------------------|
+| `embed`                | HTML Tag     | Embeds external content like videos or maps.       | `<iframe src="video-url"></iframe>` |
+| `link`                 | HTML Tag     | Creates hyperlinks to other pages or external sites.| `<a href="https://example.com">Visit Us</a>` |
+| `script`               | HTML Tag     | Includes JavaScript files for additional functionality.| `<script src="script.js"></script>` |
+
+## Conclusion
+
+Use this reference guide to navigate the parameters and commands in WebStudio effectively. Customize your website to meet your business needs while competing with platforms like Wix, Squarespace, and WordPress.
 ```
