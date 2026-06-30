@@ -1,53 +1,49 @@
-```markdown
----
-title: WebStudio Command Reference for Website Building
-description: Master WebStudio commands to create stunning websites with customizable templates and an intuitive interface.
+```yaml
+title: WebStudio Command Reference for Creative Professionals
+description: Discover WebStudio commands to enhance your website design. Build visually appealing sites with intuitive tools tailored for you.
 ---
 
 # WebStudio Command Reference
 
-This reference guide provides a comprehensive overview of the commands available in WebStudio. Use these commands to efficiently build and customize your website.
+This reference page provides a comprehensive list of commands available in WebStudio, organized by category. Use these commands to streamline your website design process.
 
-## General Commands
+## Design Commands
 
-| Parameter/Command   | Type          | Description                                   | Example                   |
-|---------------------|---------------|-----------------------------------------------|---------------------------|
-| `createSite`        | Function      | Initiates the creation of a new website.     | `createSite("My Portfolio")` |
-| `deleteSite`        | Function      | Deletes an existing website.                  | `deleteSite("My Portfolio")` |
-| `publishSite`       | Function      | Publishes the current website to the web.    | `publishSite("My Portfolio")` |
-| `unpublishSite`     | Function      | Unpublishes the current website.              | `unpublishSite("My Portfolio")` |
+| Parameter/Command      | Type         | Description                                      | Example                     |
+|------------------------|--------------|--------------------------------------------------|-----------------------------|
+| `addElement`           | Function     | Adds a new design element to your page.         | `addElement('image')`      |
+| `removeElement`        | Function     | Removes a specified design element from your page.| `removeElement('header')`   |
+| `setBackgroundColor`   | Function     | Sets the background color of the selected section.| `setBackgroundColor('#FFF')`|
+| `setFontSize`          | Function     | Adjusts the font size for selected text.        | `setFontSize('16px')`      |
+| `alignText`            | Function     | Aligns text within a specified element.         | `alignText('center')`      |
 
-## Template Management
+## Layout Commands
 
-| Parameter/Command   | Type          | Description                                   | Example                   |
-|---------------------|---------------|-----------------------------------------------|---------------------------|
-| `listTemplates`     | Function      | Lists all available templates.                | `listTemplates()`         |
-| `applyTemplate`     | Function      | Applies a specified template to your site.   | `applyTemplate("Creative")` |
-| `customizeTemplate` | Function      | Opens the customization options for a template. | `customizeTemplate("Creative")` |
+| Parameter/Command      | Type         | Description                                      | Example                     |
+|------------------------|--------------|--------------------------------------------------|-----------------------------|
+| `createGrid`           | Function     | Creates a grid layout for your page elements.   | `createGrid(3, 2)`         |
+| `addColumn`            | Function     | Adds a new column to the existing grid layout.  | `addColumn()`              |
+| `removeRow`            | Function     | Removes a specified row from the grid layout.   | `removeRow(1)`             |
+| `setMargin`            | Function     | Sets the margin for a specified element.        | `setMargin('20px')`        |
+| `setPadding`           | Function     | Adjusts the padding within a specified element. | `setPadding('10px')`       |
 
-## Content Management
+## Media Commands
 
-| Parameter/Command   | Type          | Description                                   | Example                   |
-|---------------------|---------------|-----------------------------------------------|---------------------------|
-| `addPage`           | Function      | Adds a new page to your website.             | `addPage("About Us")`     |
-| `removePage`        | Function      | Removes a specified page from your website.  | `removePage("About Us")`  |
-| `editContent`       | Function      | Edits the content of a specified page.       | `editContent("About Us", "Welcome to our site!")` |
+| Parameter/Command      | Type         | Description                                      | Example                     |
+|------------------------|--------------|--------------------------------------------------|-----------------------------|
+| `uploadImage`          | Function     | Uploads an image to your media library.         | `uploadImage('logo.png')`  |
+| `addVideo`             | Function     | Embeds a video from a specified URL.            | `addVideo('https://url.com/video')` |
+| `setImageAltText`      | Function     | Sets the alt text for an image for accessibility.| `setImageAltText('Logo Image')` |
+| `resizeImage`          | Function     | Resizes an image to specified dimensions.       | `resizeImage('300x200')`   |
+| `addAudio`             | Function     | Embeds an audio file from a specified URL.      | `addAudio('https://url.com/audio')` |
 
-## SEO Settings
+## Publishing Commands
 
-| Parameter/Command   | Type          | Description                                   | Example                   |
-|---------------------|---------------|-----------------------------------------------|---------------------------|
-| `setMetaTitle`      | Function      | Sets the meta title for your website.        | `setMetaTitle("My Portfolio")` |
-| `setMetaDescription`| Function      | Sets the meta description for your website.  | `setMetaDescription("Showcasing my creative work.")` |
-| `addKeyword`        | Function      | Adds a keyword for SEO optimization.         | `addKeyword("portfolio, design, freelance")` |
-
-## User Management
-
-| Parameter/Command   | Type          | Description                                   | Example                   |
-|---------------------|---------------|-----------------------------------------------|---------------------------|
-| `addUser`           | Function      | Adds a new user to your website.             | `addUser("john@example.com")` |
-| `removeUser`        | Function      | Removes a specified user from your website.  | `removeUser("john@example.com")` |
-| `listUsers`         | Function      | Lists all users associated with your website. | `listUsers()`             |
-
-Use this reference to navigate WebStudio's features and commands effectively. Build your website with confidence and creativity.
+| Parameter/Command      | Type         | Description                                      | Example                     |
+|------------------------|--------------|--------------------------------------------------|-----------------------------|
+| `publishSite`          | Function     | Publishes your website to the web.              | `publishSite()`             |
+| `previewSite`          | Function     | Previews your website before publishing.         | `previewSite()`             |
+| `setSEO`               | Function     | Sets SEO metadata for your website.              | `setSEO('My Website Title', 'Description')` |
+| `connectDomain`        | Function     | Connects a custom domain to your website.        | `connectDomain('mydomain.com')` |
+| `updateContent`        | Function     | Updates content on your live site.               | `updateContent('new text')` |
 ```
