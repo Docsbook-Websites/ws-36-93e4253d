@@ -1,52 +1,44 @@
 ```yaml
-title: WebStudio Reference Guide for Small Business Owners
-description: Discover essential commands and parameters in WebStudio to create professional websites effortlessly.
+title: WebStudio Command Reference for Small Business Owners
+description: Discover WebStudio commands to customize your website effectively and manage your online presence.
 ---
 
-# WebStudio Reference Guide
+# WebStudio Command Reference
 
-This reference guide provides essential commands and parameters for using WebStudio. Use this guide to enhance your web design process with advanced customization options.
+This reference page provides a comprehensive list of commands and parameters available in WebStudio, organized by category. Use these commands to customize your website and enhance your online presence.
 
-## General Commands
+## Design Commands
 
-| Parameter/Command | Type        | Description                                   | Example                   |
-|-------------------|-------------|-----------------------------------------------|---------------------------|
-| `create-site`     | Command     | Initiates the creation of a new website.     | `create-site mywebsite`   |
-| `delete-site`     | Command     | Deletes an existing website.                   | `delete-site mywebsite`   |
-| `preview`         | Command     | Previews your website before publishing.      | `preview mywebsite`       |
+| Parameter/Command      | Type         | Description                                          | Example                       |
+|------------------------|--------------|------------------------------------------------------|-------------------------------|
+| `setBackgroundColor`   | String       | Sets the background color of your website.           | `setBackgroundColor('#ffffff')` |
+| `addImage`             | URL          | Adds an image to your webpage.                       | `addImage('https://image.url')` |
+| `setFontSize`          | Integer      | Adjusts the font size for text elements.             | `setFontSize(16)`            |
+| `setTheme`             | String       | Applies a predefined theme to your site.             | `setTheme('modern')`         |
 
-## Design Customization
+## Content Management Commands
 
-| Parameter/Command      | Type        | Description                                      | Example                          |
-|------------------------|-------------|--------------------------------------------------|----------------------------------|
-| `set-theme`            | Command     | Applies a specific theme to your website.        | `set-theme modern`               |
-| `add-section`          | Command     | Adds a new section to your website layout.       | `add-section services`           |
-| `customize-font`       | Command     | Changes the font style for your website text.    | `customize-font Arial`           |
-| `set-color-scheme`     | Command     | Defines the color palette for your website.      | `set-color-scheme blue-green`    |
+| Parameter/Command      | Type         | Description                                          | Example                       |
+|------------------------|--------------|------------------------------------------------------|-------------------------------|
+| `createPage`           | String       | Creates a new page on your website.                  | `createPage('About Us')`     |
+| `deletePage`           | String       | Deletes an existing page from your website.          | `deletePage('Contact')`      |
+| `updateContent`        | String       | Updates the content of a specified page.             | `updateContent('Home', 'Welcome to our site!')` |
+| `setSEO`               | String       | Sets SEO metadata for better search engine visibility.| `setSEO('My Business Website')` |
 
-## Content Management
+## User Interaction Commands
 
-| Parameter/Command      | Type        | Description                                      | Example                          |
-|------------------------|-------------|--------------------------------------------------|----------------------------------|
-| `add-page`             | Command     | Creates a new page within your website.          | `add-page about`                 |
-| `edit-content`         | Command     | Edits the content of a specific page.            | `edit-content about`             |
-| `upload-image`         | Command     | Uploads an image to your media library.          | `upload-image logo.png`          |
-| `set-seo`              | Command     | Configures SEO settings for better visibility.   | `set-seo mywebsite "Best Bakery"`|
+| Parameter/Command      | Type         | Description                                          | Example                       |
+|------------------------|--------------|------------------------------------------------------|-------------------------------|
+| `addContactForm`       | Boolean      | Adds a contact form to your webpage.                 | `addContactForm(true)`       |
+| `enableComments`       | Boolean      | Enables comments on blog posts or articles.          | `enableComments(true)`       |
+| `setNewsletterSignup`   | String       | Integrates a newsletter signup form.                 | `setNewsletterSignup('Mailchimp')` |
 
-## Publishing
+## Analytics Commands
 
-| Parameter/Command      | Type        | Description                                      | Example                          |
-|------------------------|-------------|--------------------------------------------------|----------------------------------|
-| `publish`              | Command     | Publishes your website to the internet.          | `publish mywebsite`              |
-| `unpublish`            | Command     | Removes your website from public view.           | `unpublish mywebsite`            |
-| `set-domain`           | Command     | Assigns a custom domain to your website.         | `set-domain www.mywebsite.com`   |
+| Parameter/Command      | Type         | Description                                          | Example                       |
+|------------------------|--------------|------------------------------------------------------|-------------------------------|
+| `setGoogleAnalytics`   | String       | Integrates Google Analytics for tracking.            | `setGoogleAnalytics('UA-XXXXX-Y')` |
+| `trackEvent`           | String       | Tracks a specific user interaction on your site.    | `trackEvent('Button Click')` |
 
-## Support
-
-| Parameter/Command      | Type        | Description                                      | Example                          |
-|------------------------|-------------|--------------------------------------------------|----------------------------------|
-| `contact-support`      | Command     | Initiates contact with customer support.         | `contact-support`                |
-| `view-tutorials`       | Command     | Accesses video tutorials for using WebStudio.    | `view-tutorials`                 |
-
-Utilize this reference guide to navigate WebStudio efficiently and create a professional website tailored to your business needs.
+Use these commands to maximize the potential of your WebStudio website. Customize your design, manage your content, enhance user interaction, and track analytics effectively.
 ```

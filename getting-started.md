@@ -1,53 +1,57 @@
 ```markdown
 ---
 title: Getting Started with WebStudio for Your Website
-description: Learn how to create a professional website using WebStudio's intuitive interface and advanced customization options.
+description: Learn to create and manage your website using WebStudio. Build a custom site tailored to your business needs today.
 ---
 
 ## What You'll Learn
-In this tutorial, you will learn how to set up your first website using WebStudio. You will navigate the interface, customize your site, and publish it online.
+In this tutorial, you will learn how to set up your first website using WebStudio. You will explore the platform's customizable features, enabling you to create a unique online presence for your business.
 
 ## Prerequisites
-- A WebStudio account (Sign up at [WebStudio](https://www.webstudio.com))
-- A computer with internet access
-- A modern web browser (Google Chrome version 90+, Mozilla Firefox version 88+)
+- A WebStudio account (sign up at [WebStudio](https://www.webstudio.com))
+- A modern web browser (Google Chrome version 90 or later, Mozilla Firefox version 88 or later)
+- Basic understanding of website concepts (HTML, CSS, and design principles)
 
-## Steps to Create Your Website
+## Steps to Get Started with WebStudio
 
-1. **Log In to WebStudio**
-   - Open your web browser and go to the WebStudio login page.
+1. **Log in to Your WebStudio Account**
+   - Open your web browser and navigate to the WebStudio login page.
    - Enter your credentials and click on the "Log In" button.
 
-2. **Choose a Template**
-   - On the dashboard, click on "Create New Site."
-   - Browse through the available templates and select one that fits your business needs. Click "Use Template."
+2. **Create a New Project**
+   - From the dashboard, click on the "Create New Project" button.
+   - Choose a project name that reflects your business.
 
-3. **Customize Your Site**
-   - Use the drag-and-drop editor to add elements like text, images, and videos.
-   - Click on any element to edit its properties. Change fonts, colors, and sizes to match your brand.
+3. **Select a Template**
+   - Browse through the available templates. WebStudio offers a variety of customizable options.
+   - Click on a template that suits your business style to select it.
 
-4. **Add Pages**
-   - Click on the "Pages" tab in the left sidebar.
-   - Select "Add Page" and choose the type of page you want (e.g., About, Services, Contact).
-   - Customize each page using the same drag-and-drop features.
+4. **Customize Your Template**
+   - Use the drag-and-drop editor to modify your template. 
+   - Add or remove sections, change colors, and upload your logo to match your brand identity.
 
-5. **Set Up Navigation**
-   - Click on the "Navigation" tab to organize your site’s menu.
-   - Drag and drop pages to arrange them in the desired order. Ensure your main pages are easily accessible.
+5. **Add Content**
+   - Click on the text boxes to edit content. 
+   - Include your business information, services, and any other relevant details.
+   - Use the media library to upload images and videos that enhance your site.
 
-6. **Preview Your Site**
-   - Click on the "Preview" button at the top right corner to see how your site looks on different devices.
+6. **Set Up Navigation**
+   - Go to the "Navigation" section in the editor.
+   - Organize your site’s pages and create a user-friendly menu structure.
+
+7. **Preview Your Site**
+   - Click the "Preview" button to see how your website looks on different devices.
    - Make any necessary adjustments based on the preview.
 
-7. **Publish Your Website**
-   - Once satisfied with your site, click on the "Publish" button.
-   - Choose a domain name or connect an existing domain. Follow the prompts to finalize your publication.
+8. **Publish Your Website**
+   - Once satisfied with your design, click the "Publish" button.
+   - Choose a domain name or connect an existing one to make your site live.
 
-8. **Promote Your Website**
-   - Share your new website on social media platforms and with your email list.
-   - Use WebStudio’s built-in SEO tools to optimize your site for search engines.
+9. **Manage Your Website**
+   - Use the WebStudio dashboard to update content, monitor traffic, and manage SEO settings.
+   - Regularly check for updates and new features to enhance your site.
 
 ## Next Steps
-- Explore more concepts in [WebStudio Concepts](concepts.md).
-- Get a quick overview of features in our [Quick Start Guide](guides/quick-start.md).
+- Explore more about the platform in our [Concepts Guide](concepts.md).
+- Get familiar with additional features in our [Quick Start Guide](guides/quick-start.md).
 ```
